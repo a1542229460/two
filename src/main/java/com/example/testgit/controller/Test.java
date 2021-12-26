@@ -9,4 +9,9 @@ public class Test {
     public String test(){
         return "success";
     }
+
+    @GetMapping("index2")
+    public String test2(){
+        return "success";
+    }
 }
